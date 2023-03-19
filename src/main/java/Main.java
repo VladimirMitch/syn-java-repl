@@ -21,7 +21,7 @@ public class Main {
 //            mongoClient.listDatabaseNames()
 //                    .forEach((Consumer<String>) System.out::println);
 
-            var database = mongoClient.getDatabase("syn");  // получение базы данных с названием
+            var database = mongoClient.getDatabase("change some code");  // получение базы данных с названием
 
             // получение списка таблиц
 
