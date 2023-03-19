@@ -23,13 +23,7 @@ public class Main {
 
             var database = mongoClient.getDatabase("change some code");  // получение базы данных с названием
 
-            // получение списка таблиц
 
-//               database.listCollectionNames()
-//                       .forEach((Consumer<String>) System.out::println);
-//
-//               database.listCollections()
-//                       .forEach((Consumer<Document>)System.out::println);
 
             var todoCollection = database.getCollection("todo"); // получение коллекции с названием
 
